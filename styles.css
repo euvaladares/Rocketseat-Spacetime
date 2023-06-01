@@ -73,7 +73,7 @@ nav {
 
 .memory img {
   width: 100%;
-  height: 280px;
+  height: 800;
   object-fit: cover;
   border-radius: 8px;
   transition: transform 0.3s ease-in-out;
@@ -115,6 +115,15 @@ aside {
 
 aside * {
   animation: entering 0.7s ease-in-out;
+}
+
+aside a img {
+  transition: 0.2s ease-in-out;
+}
+
+aside a img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 aside p {
